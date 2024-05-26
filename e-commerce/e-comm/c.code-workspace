@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"name": "c",
+			"path": "../c"
+		}
+	],
+	"settings": {
+		"C_Cpp.errorSquiggles": "disabled",
+		"files.associations": {
+			"stdio.h": "c"
+		},
+		"C_Cpp.dimInactiveRegions": false,
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "MySQLlocal",
+				"database": "database1",
+				"username": "data"
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "xprotocol",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 33060,
+				"driver": "MySQL",
+				"name": "MYSQL",
+				"username": "root",
+				"connectionTimeout": 30,
+				"database": "database1",
+				"password": "mysql"
+			}
+		]
+	}
+}
